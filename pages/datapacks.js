@@ -45,6 +45,11 @@ export default function Datapacks() {
           want to pass the night or storm please let other players know in chat.
         </p>
         <br></br>
+        <h2 className="large text-primary">Track Statistics</h2>
+        <p>
+          Better Statistic tracker in minecraft for those that like numbers.
+        </p>
+        <br></br>
         <h2 className="large text-primary">Shulker Respawn</h2>
         <p>
           Shulkers will respawn in end cities after sometime. This is so we wont
@@ -61,6 +66,12 @@ export default function Datapacks() {
         <p>
           All mobs have a chance to drop their head when being killed. The
           looting enchantment will increase this chance
+        </p>
+        <br></br>
+        <h2 className="large text-primary">Player Mob Heads</h2>
+        <p>
+          Players will drop their own head when killed by another player... or
+          suicide by arrow.
         </p>
         <br></br>
         <h2 className="large text-primary">Mini Blocks</h2>
@@ -80,6 +91,31 @@ export default function Datapacks() {
           </Link>{" "}
           has the best tutorial for how to use this.
         </p>
+        <br></br>
+        <h2 className="large text-primary">Rotten Flesh to Leather</h2>
+        <p>Allows you to smelt rotten flesh into leather.</p>
+        <img className="my-1" src="/leather.png" alt="leather" />
+        <br></br>
+        <h2 className="large text-primary">Sandstone Dyeing</h2>
+        <p>Allows you to use red dye on sandstone to create red sandstone.</p>
+        <img className="my-1" src="/sandstone.png" alt="sandstone" />
+        <br></br>
+        <h2 className="large text-primary">Universal Dyeing</h2>
+        <p>
+          Allows you to use multiple diffrent types of dyes materials and dye
+          them into one. Only works with Glass, Glass Panes and Terracotta.
+        </p>
+        <img className="my-1" src="/glass.png" alt="glass" />
+        <img className="my-1" src="/glass pane.png" alt="glass pane" />
+        <img className="my-1" src="/terracotta.png" alt="terracotta" />
+        <br></br>
+        <h2 className="large text-primary">Craftable Nametags</h2>
+        <p>Allows you to craft nametags using Paper, Iron and String</p>
+        <img className="my-1" src="/name tag.png" alt="nametags" />
+        <br></br>
+        <h2 className="large text-primary">Craftable Blackstone</h2>
+        <p>Allows you to craft blackstone using Basalt, Coal and Charcoal</p>
+        <img className="my-1" src="/blackstone.png" alt="blackstone" />
       </div>
     </div>
   );
