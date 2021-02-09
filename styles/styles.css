@@ -1,0 +1,656 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap");
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-primary {
+  color: #508991;
+}
+
+.text-dark {
+  color: #172a3a;
+}
+
+.text-light {
+  color: #74b3ce;
+}
+
+.text-dark-green {
+  color: #004346;
+}
+
+.text-light-green {
+  color: #09bc8a;
+}
+
+.code {
+  background: #172a3a;
+  color: #09bc8a;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  padding: 4px;
+}
+
+.center {
+  text-align: center;
+}
+
+.bg-primary {
+  background-color: #508991;
+  color: #fff;
+}
+
+.bg-secondary {
+  background-color: #74b3ce;
+  color: #333;
+  border: #ccc 1px solid;
+}
+
+.bg-dark {
+  background-color: #172a3a;
+  color: #fff;
+}
+
+.bg-dark-green {
+  background-color: #004346;
+  color: #fff;
+}
+
+.bg-light-green {
+  background-color: #09bc8a;
+  color: #fff;
+}
+
+.bg-white {
+  background-color: #fff;
+  color: #333;
+  border: #ccc 1px solid;
+}
+
+.btn {
+  display: inline-block;
+  background: #74b3ce;
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  border-radius: 4px;
+}
+
+.btn.btn-primary {
+  background-color: #508991;
+  color: #fff;
+}
+
+.btn.btn-primary:hover {
+  background: #5999a1;
+}
+
+.btn.btn-dark {
+  background-color: #172a3a;
+  color: #fff;
+}
+
+.btn.btn-dark:hover {
+  background: #1e374c;
+}
+
+.btn.btn-green {
+  background-color: #004346;
+  color: #fff;
+}
+
+.btn.btn-green:hover {
+  background: #005b60;
+}
+
+.btn.btn-light-green {
+  background-color: #09bc8a;
+  color: #fff;
+}
+
+.btn.btn-light-green:hover {
+  background: #0ad49c;
+}
+
+.btn:hover {
+  background: #345f83;
+  color: #fff;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: #172a3a;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+table * {
+  position: relative;
+}
+
+table td,
+table th {
+  padding-left: 8px;
+}
+
+table thead tr {
+  height: 60px;
+  border-bottom: 1px solid #09bc8a;
+  font-size: 16px;
+}
+
+table tbody tr {
+  height: 48px;
+  border-bottom: 1px solid #09bc8a;
+}
+
+table tbody tr:last-child {
+  border: 0;
+}
+
+table td,
+table th {
+  text-align: left;
+}
+
+table td.l,
+table th.l {
+  text-align: right;
+}
+
+table td.c,
+table th.c {
+  text-align: center;
+}
+
+table td.r,
+table th.r {
+  text-align: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", "sans-serif";
+  font-size: 1rem;
+  line-height: 1.6;
+  background-image: url("../public/spawn-3.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #3a3a41;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #508991;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  border-bottom: solid 2px #09bc8a;
+  opacity: 0.9;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar a:hover {
+  color: #09bc8a;
+}
+
+.active {
+  color: #09bc8a !important;
+}
+
+.landing {
+  position: relative;
+  height: 100vh;
+}
+
+.landing-inner {
+  color: #fff;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.brand {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: inherit;
+}
+
+.logo {
+  height: 32rem;
+}
+
+@media (max-width: 700px) {
+  .hide-sm {
+    display: none;
+  }
+  .landing-inner {
+    margin-top: 25rem;
+    margin-bottom: 20rem;
+  }
+  .line {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 5px;
+  }
+  nav {
+    position: relative;
+  }
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    -webkit-transform: translate(-5%, -50%);
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #172a3a;
+    height: 100vh;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%);
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+  .nav-links.open {
+    clip-path: circle(1200px at 90% -10%);
+    -webkit-clip-path: circle(1200px at 90% -10%);
+    pointer-events: all;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .nav-links li a {
+    font-size: 1.5rem;
+  }
+  .nav-links li:nth-child(1) {
+    -webkit-transition: all 0.5s ease 0.1s;
+    transition: all 0.5s ease 0.1s;
+  }
+  .nav-links li:nth-child(2) {
+    -webkit-transition: all 0.5s ease 0.2s;
+    transition: all 0.5s ease 0.2s;
+  }
+  .nav-links li:nth-child(3) {
+    -webkit-transition: all 0.5s ease 0.3s;
+    transition: all 0.5s ease 0.3s;
+  }
+  .nav-links li:nth-child(4) {
+    -webkit-transition: all 0.5s ease 0.4s;
+    transition: all 0.5s ease 0.4s;
+  }
+  .nav-links li:nth-child(5) {
+    -webkit-transition: all 0.5s ease 0.5s;
+    transition: all 0.5s ease 0.5s;
+  }
+  .nav-links li:nth-child(6) {
+    -webkit-transition: all 0.5s ease 0.6s;
+    transition: all 0.5s ease 0.6s;
+  }
+  .nav-links li:nth-child(7) {
+    -webkit-transition: all 0.5s ease 0.7s;
+    transition: all 0.5s ease 0.7s;
+  }
+  .nav-links li:nth-child(8) {
+    -webkit-transition: all 0.5s ease 0.8s;
+    transition: all 0.5s ease 0.8s;
+  }
+  .nav-links li:nth-child(9) {
+    -webkit-transition: all 0.5s ease 0.9s;
+    transition: all 0.5s ease 0.9s;
+  }
+  .nav-links li:nth-child(10) {
+    -webkit-transition: all 0.5s ease 1s;
+    transition: all 0.5s ease 1s;
+  }
+  .nav-links li:nth-child(11) {
+    -webkit-transition: all 0.5s ease 1.1s;
+    transition: all 0.5s ease 1.1s;
+  }
+  li.fade {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 35.5em) {
+  table {
+    display: block;
+  }
+  table > *,
+  table tr,
+  table td {
+    display: block;
+  }
+  table th {
+    display: none;
+  }
+  table thead {
+    display: none;
+  }
+  table tbody tr {
+    height: auto;
+    padding: 8px 0;
+  }
+  table tbody tr td {
+    padding-left: 45%;
+    margin-bottom: 12px;
+  }
+  table tbody tr td:last-child {
+    margin-bottom: 0;
+  }
+  table tbody tr td:before {
+    position: absolute;
+    font-weight: 700;
+    width: 40%;
+    left: 10px;
+    top: 0;
+  }
+  table tbody tr td.gems:nth-child(1):before {
+    content: "Command";
+  }
+  table tbody tr td.gems:nth-child(2):before {
+    content: "Action";
+  }
+  table tbody tr td.fortune:nth-child(1):before {
+    content: "Level";
+  }
+  table tbody tr td.fortune:nth-child(2):before {
+    content: "Cost(Gems)";
+  }
+  table tbody tr td.fortune:nth-child(3):before {
+    content: "Increase";
+  }
+  table tbody tr td.luck:nth-child(1):before {
+    content: "Level";
+  }
+  table tbody tr td.luck:nth-child(2):before {
+    content: "Cost(Gems)";
+  }
+  table tbody tr td.luck:nth-child(3):before {
+    content: "Increase";
+  }
+  table tbody tr td.discount:nth-child(1):before {
+    content: "Level";
+  }
+  table tbody tr td.discount:nth-child(2):before {
+    content: "Cost(Gems)";
+  }
+  table tbody tr td.discount:nth-child(3):before {
+    content: "Discount";
+  }
+  table tbody tr td.claims:nth-child(1):before {
+    content: "Command";
+  }
+  table tbody tr td.claims:nth-child(2):before {
+    content: "Action";
+  }
+  table tbody tr td.ranks:nth-child(1):before {
+    content: "Rank";
+  }
+  table tbody tr td.ranks:nth-child(2):before {
+    content: "Cost(Gems)";
+  }
+  table tbody tr td.ranks:nth-child(3):before {
+    content: "Claim Block Limit";
+  }
+  table tbody tr td.ranks:nth-child(4):before {
+    content: "Perks";
+  }
+  table tbody tr td.mythicmobs:nth-child(1):before {
+    content: "Mob";
+  }
+  table tbody tr td.mythicmobs:nth-child(2):before {
+    content: "Spawn Chance";
+  }
+  table tbody tr td.mythicmobs:nth-child(3):before {
+    content: "Conditions";
+  }
+  table tbody tr td.drops:nth-child(1):before {
+    content: "Mob";
+  }
+  table tbody tr td.drops:nth-child(2):before {
+    content: "Drop Chance";
+  }
+  table tbody tr td.drops:nth-child(3):before {
+    content: "Gem Amount";
+  }
+  table tbody tr td.drops-mining:nth-child(1):before {
+    content: "Block";
+  }
+  table tbody tr td.drops-mining:nth-child(2):before {
+    content: "Drop Chance";
+  }
+  table tbody tr td.drops-mining:nth-child(3):before {
+    content: "Gem Amount";
+  }
+  table tbody tr td.drops-farming:nth-child(1):before {
+    content: "Crop";
+  }
+  table tbody tr td.drops-farming:nth-child(2):before {
+    content: "Drop Chance";
+  }
+  table tbody tr td.drops-farming:nth-child(3):before {
+    content: "Gem Amount";
+  }
+  table tbody tr td.drops-fishing:nth-child(1):before {
+    content: "Fish";
+  }
+  table tbody tr td.drops-fishing:nth-child(2):before {
+    content: "Drop Chance";
+  }
+  table tbody tr td.drops-fishing:nth-child(3):before {
+    content: "Gem Amount";
+  }
+}
+/*# sourceMappingURL=styles.css.map */
