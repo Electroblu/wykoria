@@ -11,12 +11,12 @@ export default function Home() {
         <title>Wykoria</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div class="dark-overlay"></div>
-      <div class="landing">
-        <div class="landing-inner">
-          <img class="logo" src="/Wykoria Logo.svg" alt="Wykoria-logo" />
-          <h1 class="x-large">Welcome To Wkyoria</h1>
-          <p class="lead">
+      <div className="dark-overlay"></div>
+      <div className="landing">
+        <div className="landing-inner">
+          <img className="logo" src="/Wykoria Logo.svg" alt="Wykoria-logo" />
+          <h1 className="x-large">Welcome To Wkyoria</h1>
+          <p className="lead">
             'Some time ago, in a land not long since forgotten, the kingdom of
             Wykoria could be found. With its lush forests, sprawling coasts and
             ore rich mountains, it was a jewel within its world. But, even the
@@ -29,9 +29,9 @@ export default function Home() {
             their separate ways. To establish new kingdoms and trade. To revive
             the land of Wykoria.'
           </p>
-          <div class="buttons">
+          <div className="buttons">
             <Link href="/">
-              <a class="btn btn-primary">Continue to Wykoria</a>
+              <a className="btn btn-primary">Continue to Wykoria</a>
             </Link>
           </div>
         </div>

@@ -10,14 +10,14 @@ export default function Rules() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Wykoria: Rules</title>
       </Head>
-      <div class="dark-overlay"></div>
-      <div class="container">
-        <h2 class="x-large text-primary center">The Rules</h2>
-        <p class="lead center">
+      <div className="dark-overlay"></div>
+      <div className="container">
+        <h2 className="x-large text-primary center">The Rules</h2>
+        <p className="lead center">
           Please follow all rules set out on the server breaking these rules
           will results in temporary or pemernant bans
         </p>
-        <p class="lead center">Rules may be adjusted over time if needed</p>
+        <p className="lead center">Rules may be adjusted over time if needed</p>
         <div>
           <ol>
             <li>
@@ -49,14 +49,14 @@ export default function Rules() {
             <li>
               {" "}
               Any leak of the server IP will result in a{" "}
-              <strong class="text-light-green">
+              <strong className="text-light-green">
                 Perm Ban no warnings given.
               </strong>
             </li>
           </ol>
         </div>
         <br></br>
-        <h2 class="large text-primary">Dynmap</h2>
+        <h2 className="large text-primary">Dynmap</h2>
         <p>
           Wykoria uses dynmap to display our world map this will show all
           players location in realtime and the map will update as people build
@@ -66,37 +66,37 @@ export default function Rules() {
           The link to dynmap will be pinned in the Minecraft Talk discord
           channel.
         </p>
-        <img class="my-1" src="/Dynmap.png" alt="Dynmap" />
+        <img className="my-1" src="/Dynmap.png" alt="Dynmap" />
         <br></br>
         <br></br>
         <div>
-          <h2 class="x-large text-primary">Special Mentions</h2>
+          <h2 className="x-large text-primary">Special Mentions</h2>
           <p>
             We like to give credit where credit is due. These builds were
             insiration for building out Spawn and the Central Nether Hub
           </p>
           <br></br>
-          <h2 class="large text-primary my-1">Spawn</h2>
-          <img class="my-1" src="/spawn-1.png" alt="spawn-1" />
-          <img class="my-1" src="/spawn-2.png" alt="spawn-2" />
-          <img class="my-1" src="/spawn-3.png" alt="spawn-3" />
-          <p class="lead">
+          <h2 className="large text-primary my-1">Spawn</h2>
+          <img className="my-1" src="/spawn-1.png" alt="spawn-1" />
+          <img className="my-1" src="/spawn-2.png" alt="spawn-2" />
+          <img className="my-1" src="/spawn-3.png" alt="spawn-3" />
+          <p className="lead">
             <strong>Inspired by: </strong>
             <Link href="https://www.grabcraft.com/minecraft/ruins-of-valerion/ruins">
               <a>Emerindyl</a>
             </Link>
           </p>
-          <p class="lead">
+          <p className="lead">
             <strong>Inspired by: </strong>
             <Link href="https://www.planetminecraft.com/project/tree-bundle-370-custom-trees-download/">
               <a>Exsilit</a>
             </Link>
           </p>
-          <h2 class="large text-primary">Nether Hub</h2>
-          <img class="my-1" src="/nether-1.png" alt="nether-1" />
-          <img class="my-1" src="/nether-2.png" alt="nether-2" />
-          <img class="my-1" src="/nether-3.png" alt="nether-3" />
-          <p class="lead">
+          <h2 className="large text-primary">Nether Hub</h2>
+          <img className="my-1" src="/nether-1.png" alt="nether-1" />
+          <img className="my-1" src="/nether-2.png" alt="nether-2" />
+          <img className="my-1" src="/nether-3.png" alt="nether-3" />
+          <p className="lead">
             <strong>Inspired by: </strong>
             <Link href="https://www.planetminecraft.com/project/nether-themed-castle/">
               <a>ShaddowBladeMC49</a>

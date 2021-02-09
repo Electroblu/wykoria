@@ -9,17 +9,17 @@ export default function Ranks() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Wykoria: Ranks</title>
       </Head>
-      <div class="dark-overlay"></div>
-      <div class="container">
+      <div className="dark-overlay"></div>
+      <div className="container">
         <div>
-          <h1 class="x-large text-primary center">Ranks</h1>
+          <h1 className="x-large text-primary center">Ranks</h1>
           <p>
             Wykoria uses a rank system for increasing the amount of claim blocks
             a player has as well as giving players new perks as they reach
             higher ransk. to view ranks type{" "}
-            <span class="code">/gems shop</span> and go to ranks to view all the
-            available ranks. In order to rank up you must have amount of gems
-            needed to purchase the rank in your wallet as well as be the
+            <span className="code">/gems shop</span> and go to ranks to view all
+            the available ranks. In order to rank up you must have amount of
+            gems needed to purchase the rank in your wallet as well as be the
             previous rank to rank up, you cannot skip ranks.
           </p>
           <br></br>
@@ -40,8 +40,8 @@ export default function Ranks() {
         </div>
         <br></br>
         <div>
-          <h2 class="large text-primary">Rank Progression</h2>
-          <table class="table">
+          <h2 className="large text-primary">Rank Progression</h2>
+          <table className="table">
             <thead>
               <tr>
                 <th>Rank</th>
@@ -52,55 +52,55 @@ export default function Ranks() {
             </thead>
             <tbody>
               <tr>
-                <td class="ranks">Stone</td>
-                <td class="ranks">500</td>
-                <td class="ranks">1,024 (4 Chunks)</td>
-                <td class="ranks">N/A</td>
+                <td className="ranks">Stone</td>
+                <td className="ranks">500</td>
+                <td className="ranks">1,024 (4 Chunks)</td>
+                <td className="ranks">N/A</td>
               </tr>
               <tr>
-                <td class="ranks">Iron</td>
-                <td class="ranks">5,000</td>
-                <td class="ranks">2,304 (9 Chunks)</td>
-                <td class="ranks">Can subdivide claims</td>
+                <td className="ranks">Iron</td>
+                <td className="ranks">5,000</td>
+                <td className="ranks">2,304 (9 Chunks)</td>
+                <td className="ranks">Can subdivide claims</td>
               </tr>
               <tr>
-                <td class="ranks">Redstone</td>
-                <td class="ranks">10,000</td>
-                <td class="ranks">4,096 (16 Chunks)</td>
-                <td class="ranks">N/A</td>
+                <td className="ranks">Redstone</td>
+                <td className="ranks">10,000</td>
+                <td className="ranks">4,096 (16 Chunks)</td>
+                <td className="ranks">N/A</td>
               </tr>
               <tr>
-                <td class="ranks">Lapis</td>
-                <td class="ranks">20,000</td>
-                <td class="ranks">6,400 (25 Chunks)</td>
-                <td class="ranks">Can transfer claims</td>
+                <td className="ranks">Lapis</td>
+                <td className="ranks">20,000</td>
+                <td className="ranks">6,400 (25 Chunks)</td>
+                <td className="ranks">Can transfer claims</td>
               </tr>
               <tr>
-                <td class="ranks">Gold</td>
-                <td class="ranks">40,000</td>
-                <td class="ranks">9,216 (36 Chunks)</td>
-                <td class="ranks">N/A</td>
+                <td className="ranks">Gold</td>
+                <td className="ranks">40,000</td>
+                <td className="ranks">9,216 (36 Chunks)</td>
+                <td className="ranks">N/A</td>
               </tr>
               <tr>
-                <td class="ranks">Diamond</td>
-                <td class="ranks">80,000</td>
-                <td class="ranks">12,544 (49 Chunks)</td>
-                <td class="ranks">N/A</td>
+                <td className="ranks">Diamond</td>
+                <td className="ranks">80,000</td>
+                <td className="ranks">12,544 (49 Chunks)</td>
+                <td className="ranks">N/A</td>
               </tr>
               <tr>
-                <td class="ranks">Emerald</td>
-                <td class="ranks">160,000</td>
-                <td class="ranks">16,384 (64 Chunks)</td>
-                <td class="ranks">
-                  Can use <span class="code">/fly</span> in the Nether
+                <td className="ranks">Emerald</td>
+                <td className="ranks">160,000</td>
+                <td className="ranks">16,384 (64 Chunks)</td>
+                <td className="ranks">
+                  Can use <span className="code">/fly</span> in the Nether
                 </td>
               </tr>
               <tr>
-                <td class="ranks">Netherite</td>
-                <td class="ranks">320,000</td>
-                <td class="ranks">20,736 (81 Chunks)</td>
-                <td class="ranks">
-                  Can use <span class="code">/fly</span> in all worlds
+                <td className="ranks">Netherite</td>
+                <td className="ranks">320,000</td>
+                <td className="ranks">20,736 (81 Chunks)</td>
+                <td className="ranks">
+                  Can use <span className="code">/fly</span> in all worlds
                 </td>
               </tr>
             </tbody>

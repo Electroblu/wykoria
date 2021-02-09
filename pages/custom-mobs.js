@@ -9,10 +9,10 @@ export default function CustomMobs() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Wykoria: Custom Mobs</title>
       </Head>
-      <div class="dark-overlay"></div>
-      <div class="container">
+      <div className="dark-overlay"></div>
+      <div className="container">
         <div>
-          <h1 class="x-large text-primary center">Custom Mobs</h1>
+          <h1 className="x-large text-primary center">Custom Mobs</h1>
           <p>
             Wykoria has many custom mobs and over time more mobs will be added.
             These custom mobs are there to give some extra difficulty to the
@@ -44,7 +44,7 @@ export default function CustomMobs() {
             and weapons that drop from the boss mobs.
           </p>
           <br></br>
-          <h2 class="large text-primary">Custom Armor and Weapons</h2>
+          <h2 className="large text-primary">Custom Armor and Weapons</h2>
           <p>
             Along with custom mobs there are some custom weapons and armor that
             can drop from Boss and Mega Boss mobs this gear has custom effects
@@ -54,14 +54,14 @@ export default function CustomMobs() {
           </p>
           <br></br>
           <div>
-            <h2 class="large text-primary">Spawn Rates</h2>
+            <h2 className="large text-primary">Spawn Rates</h2>
             <p>
               Below is the spawn rates for each type of custom mob and any extra
               conditions on the spawn. These may be altered in the future if
               encounters with some mobs become too rare or too frequent
             </p>
             <br></br>
-            <table class="table">
+            <table className="table">
               <thead>
                 <tr>
                   <th>Mob</th>
@@ -71,101 +71,103 @@ export default function CustomMobs() {
               </thead>
               <tbody>
                 <tr>
-                  <td class="mythicmobs">Zombie</td>
-                  <td class="mythicmobs">10%</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Zombie</td>
+                  <td className="mythicmobs">10%</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Skeleton</td>
-                  <td class="mythicmobs">10%</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Skeleton</td>
+                  <td className="mythicmobs">10%</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Spider</td>
-                  <td class="mythicmobs">10%</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Spider</td>
+                  <td className="mythicmobs">10%</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Cave Spider</td>
-                  <td class="mythicmobs">10%</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Cave Spider</td>
+                  <td className="mythicmobs">10%</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Creeper</td>
-                  <td class="mythicmobs">10%</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Creeper</td>
+                  <td className="mythicmobs">10%</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Zombie Queen</td>
-                  <td class="mythicmobs">%2</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Zombie Queen</td>
+                  <td className="mythicmobs">%2</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Skeleton Queen</td>
-                  <td class="mythicmobs">%2</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Skeleton Queen</td>
+                  <td className="mythicmobs">%2</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Spider Queen</td>
-                  <td class="mythicmobs">%2</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Spider Queen</td>
+                  <td className="mythicmobs">%2</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Cave Spider Queen</td>
-                  <td class="mythicmobs">%2</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Cave Spider Queen</td>
+                  <td className="mythicmobs">%2</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Creeper Boss</td>
-                  <td class="mythicmobs">%2</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Creeper Boss</td>
+                  <td className="mythicmobs">%2</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Skeleton King</td>
-                  <td class="mythicmobs">%2</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Skeleton King</td>
+                  <td className="mythicmobs">%2</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Sharpshooter</td>
-                  <td class="mythicmobs">%2</td>
-                  <td class="mythicmobs">N/A</td>
+                  <td className="mythicmobs">Sharpshooter</td>
+                  <td className="mythicmobs">%2</td>
+                  <td className="mythicmobs">N/A</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Iron Sentinel</td>
-                  <td class="mythicmobs">%1</td>
-                  <td class="mythicmobs">Savana Biome</td>
+                  <td className="mythicmobs">Iron Sentinel</td>
+                  <td className="mythicmobs">%1</td>
+                  <td className="mythicmobs">Savana Biome</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Silver Archer</td>
-                  <td class="mythicmobs">%1</td>
-                  <td class="mythicmobs">Jungle Biome</td>
+                  <td className="mythicmobs">Silver Archer</td>
+                  <td className="mythicmobs">%1</td>
+                  <td className="mythicmobs">Jungle Biome</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">The Beast</td>
-                  <td class="mythicmobs">%1</td>
-                  <td class="mythicmobs">Badlands or Desert Biome</td>
+                  <td className="mythicmobs">The Beast</td>
+                  <td className="mythicmobs">%1</td>
+                  <td className="mythicmobs">Badlands or Desert Biome</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">The Rabbit</td>
-                  <td class="mythicmobs">%1</td>
-                  <td class="mythicmobs">Mountains or Taiga Mountains Biome</td>
+                  <td className="mythicmobs">The Rabbit</td>
+                  <td className="mythicmobs">%1</td>
+                  <td className="mythicmobs">
+                    Mountains or Taiga Mountains Biome
+                  </td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Wizard</td>
-                  <td class="mythicmobs">%1</td>
-                  <td class="mythicmobs">
+                  <td className="mythicmobs">Wizard</td>
+                  <td className="mythicmobs">%1</td>
+                  <td className="mythicmobs">
                     Forest, Birch Forest, Dark Forest Biome
                   </td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">Necromancer</td>
-                  <td class="mythicmobs">%1</td>
-                  <td class="mythicmobs">Swamp Biome</td>
+                  <td className="mythicmobs">Necromancer</td>
+                  <td className="mythicmobs">%1</td>
+                  <td className="mythicmobs">Swamp Biome</td>
                 </tr>
                 <tr>
-                  <td class="mythicmobs">The Fire Elemental</td>
-                  <td class="mythicmobs">%0.09</td>
-                  <td class="mythicmobs">Tundra, Plains Biome</td>
+                  <td className="mythicmobs">The Fire Elemental</td>
+                  <td className="mythicmobs">%0.09</td>
+                  <td className="mythicmobs">Tundra, Plains Biome</td>
                 </tr>
               </tbody>
             </table>

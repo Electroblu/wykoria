@@ -7,19 +7,19 @@ export default function Navbar() {
   const handleClick = () => setClick(!click);
 
   return (
-    <nav class="navbar bg-dark">
-      <div class="brand">
+    <nav className="navbar bg-dark">
+      <div className="brand">
         <Link href="/">
           <a>
             <img src="/server-icon.png" alt="Wykoria logo" />
           </a>
         </Link>
-        <h1 class="large">Wykoria</h1>
+        <h1 className="large">Wykoria</h1>
       </div>
-      <div class="hamburger" onClick={handleClick}>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+      <div className="hamburger" onClick={handleClick}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
       </div>
       <div>
         <ul className={click ? "nav-links open" : "nav-links"}>

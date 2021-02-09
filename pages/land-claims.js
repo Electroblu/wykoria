@@ -9,10 +9,10 @@ export default function Landclaims() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Wykoria: Land Claims</title>
       </Head>
-      <div class="dark-overlay"></div>
-      <div class="container">
+      <div className="dark-overlay"></div>
+      <div className="container">
         <div>
-          <h1 class="x-large text-primary center">Land Claims</h1>
+          <h1 className="x-large text-primary center">Land Claims</h1>
           <p>
             Wykoria uses the GriefPrevention plugin for land claims. Each player
             will start wih 256 claim blocks by default (1 chunk) you can
@@ -47,7 +47,7 @@ export default function Landclaims() {
             bellow ie if you want someone to be able to open chests and use
             doors, buttons etcS giving the player Container trus will also give
             them access trust. the hierarchy for permissions is as follows{" "}
-            <strong class="text-light-green">
+            <strong className="text-light-green">
               Management > Build > Container > Access
             </strong>
           </p>
@@ -66,7 +66,7 @@ export default function Landclaims() {
             claim. Always be careful when using this feature.
           </p>
           <br></br>
-          <div class="iframe-container">
+          <div className="iframe-container">
             <iframe
               width="560"
               height="315"
@@ -78,12 +78,12 @@ export default function Landclaims() {
           </div>
           <br></br>
           <div>
-            <h2 class="large text-primary">How To Use</h2>
+            <h2 className="large text-primary">How To Use</h2>
             <h3>Step 1</h3>
             <p>
-              Type <span class="code">/kit cliams</span> in the chat to recive a
-              golden shove and stick these will be needed to claim land and view
-              claimed land
+              Type <span className="code">/kit cliams</span> in the chat to
+              recive a golden shove and stick these will be needed to claim land
+              and view claimed land
             </p>
             <br></br>
             <h3>Step 2</h3>
@@ -108,8 +108,8 @@ export default function Landclaims() {
               all its own claim permissions you can give out.
             </p>
             <br></br>
-            <h2 class="large text-primary">Commands</h2>
-            <table class="table">
+            <h2 className="large text-primary">Commands</h2>
+            <table className="table">
               <thead>
                 <tr>
                   <th>Command</th>
@@ -118,52 +118,60 @@ export default function Landclaims() {
               </thead>
               <tbody>
                 <tr>
-                  <td class="claims">/kit claims</td>
-                  <td class="claims">Gives you a Golden Shovel and a Stick</td>
+                  <td className="claims">/kit claims</td>
+                  <td className="claims">
+                    Gives you a Golden Shovel and a Stick
+                  </td>
                 </tr>
                 <tr>
-                  <td class="claims">/permissiontrust (player name)</td>
-                  <td class="claims">Gives player Management trust in claim</td>
+                  <td className="claims">/permissiontrust (player name)</td>
+                  <td className="claims">
+                    Gives player Management trust in claim
+                  </td>
                 </tr>
                 <tr>
-                  <td class="claims">/trust (player name)</td>
-                  <td class="claims">Gives player Build trust in claim</td>
+                  <td className="claims">/trust (player name)</td>
+                  <td className="claims">Gives player Build trust in claim</td>
                 </tr>
                 <tr>
-                  <td class="claims">/containertrust (player name)</td>
-                  <td class="claims">Gives player Container trust in claim</td>
+                  <td className="claims">/containertrust (player name)</td>
+                  <td className="claims">
+                    Gives player Container trust in claim
+                  </td>
                 </tr>
                 <tr>
-                  <td class="claims">/accesstrust (player name)</td>
-                  <td class="claims">Gives player Access trust in claim</td>
+                  <td className="claims">/accesstrust (player name)</td>
+                  <td className="claims">Gives player Access trust in claim</td>
                 </tr>
                 <tr>
-                  <td class="claims">/untrust (player name)</td>
-                  <td class="claims">Removes all permissions from player</td>
+                  <td className="claims">/untrust (player name)</td>
+                  <td className="claims">
+                    Removes all permissions from player
+                  </td>
                 </tr>
                 <tr>
-                  <td class="claims">/subdivideclaim</td>
-                  <td class="claims">
+                  <td className="claims">/subdivideclaim</td>
+                  <td className="claims">
                     Will allow you to subdivide current claim
                   </td>
                 </tr>
                 <tr>
-                  <td class="claims">/bc</td>
-                  <td class="claims">
+                  <td className="claims">/bc</td>
+                  <td className="claims">
                     Returns to basic claim mode afer being in subdivide claim
                     mode
                   </td>
                 </tr>
                 <tr>
-                  <td class="claims">/abandoncliam confirm</td>
-                  <td class="claims">
+                  <td className="claims">/abandoncliam confirm</td>
+                  <td className="claims">
                     Will abandon the claim you are standing in and return the
                     claim blocks to your total amount
                   </td>
                 </tr>
                 <tr>
-                  <td class="claims">/abandonallclaims confirm</td>
-                  <td class="claims">
+                  <td className="claims">/abandonallclaims confirm</td>
+                  <td className="claims">
                     Will abandon all of your claims and return the claim blocks
                     to your total amount
                   </td>

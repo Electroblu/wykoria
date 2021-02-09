@@ -9,10 +9,10 @@ export default function Shops() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Wykoria: Shops</title>
       </Head>
-      <div class="dark-overlay"></div>
-      <div class="container">
+      <div className="dark-overlay"></div>
+      <div className="container">
         <div>
-          <h1 class="x-large text-primary center">Player Shops</h1>
+          <h1 className="x-large text-primary center">Player Shops</h1>
           <p>
             Shopkeeper is being used to create player shops. Shops are created
             using an egg given by the /shopkeeper give command
@@ -23,7 +23,7 @@ export default function Shops() {
           </p>
         </div>
         <br></br>
-        <div class="iframe-container">
+        <div className="iframe-container">
           <iframe
             width="560"
             height="315"
@@ -35,11 +35,11 @@ export default function Shops() {
         </div>
         <br></br>
         <div>
-          <h2 class="large text-primary">How to Use</h2>
+          <h2 className="large text-primary">How to Use</h2>
           <h3>Step 1</h3>
           <p>
-            Type <span class="code">/shopkeeper give</span> command in chat to
-            recive the item needed to create a shop
+            Type <span className="code">/shopkeeper give</span> command in chat
+            to recive the item needed to create a shop
           </p>
           <br></br>
           <h3>Step 2</h3>
@@ -125,11 +125,11 @@ export default function Shops() {
           </p>
           <br></br>
           <h3>Step 11</h3>
-          <img class="my-1" src="./images/stonks.jpg" alt="stonks" />
+          <img className="my-1" src="./images/stonks.jpg" alt="stonks" />
         </div>
         <br></br>
         <div>
-          <h2 class="large text-primary">
+          <h2 className="large text-primary">
             Resocking Shops and Collecting Profits
           </h2>
           <p>
@@ -155,7 +155,7 @@ export default function Shops() {
         </div>
         <br></br>
         <div>
-          <h2 class="large text-primary">Using Another Players Shop</h2>
+          <h2 className="large text-primary">Using Another Players Shop</h2>
           <p>
             Simply right click on the shop like you would to trade with the
             villager this will open an interface the same as trading with a

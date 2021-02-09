@@ -9,10 +9,10 @@ export default function DropRates() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Wykoria: Drop Rates</title>
       </Head>
-      <div class="dark-overlay"></div>
-      <div class="container">
+      <div className="dark-overlay"></div>
+      <div className="container">
         <div>
-          <h1 class="x-large text-primary center">Drop Rates</h1>
+          <h1 className="x-large text-primary center">Drop Rates</h1>
           <p>
             These are drop rates for gems from each souce. Some mobs, crops and
             ores will not drop gems as the plugin does not recognise any of
@@ -22,8 +22,8 @@ export default function DropRates() {
             automatic farms.
           </p>
           <br></br>
-          <h2 class="large text-primary center">Mobs</h2>
-          <table class="table">
+          <h2 className="large text-primary center">Mobs</h2>
+          <table className="table">
             <thead>
               <tr>
                 <th>Mob</th>
@@ -33,330 +33,330 @@ export default function DropRates() {
             </thead>
             <tbody>
               <tr>
-                <td Class="drops">Cat</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Cat</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Chicken</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Chicken</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Cod</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Cod</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Cow</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Cow</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Donkey</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Donkey</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Fox</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Fox</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Horse</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Horse</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Mule</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Mule</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Ocelot</td>
-                <td Class="drops">100%</td>
-                <td Class="drops">1-4</td>
+                <td className="drops">Ocelot</td>
+                <td className="drops">100%</td>
+                <td className="drops">1-4</td>
               </tr>
               <tr>
-                <td Class="drops">Parrot</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Parrot</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Pig</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Pig</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Polar Bear</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Polar Bear</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Rabbit</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Rabbit</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Salmon</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Salmon</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Sheep</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Sheep</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Skeleton Horse</td>
-                <td Class="drops">100%</td>
-                <td Class="drops">1-4</td>
+                <td className="drops">Skeleton Horse</td>
+                <td className="drops">100%</td>
+                <td className="drops">1-4</td>
               </tr>
               <tr>
-                <td Class="drops">Squid</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Squid</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Strider</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-4</td>
+                <td className="drops">Strider</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-4</td>
               </tr>
               <tr>
-                <td Class="drops">Tropical Fish</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Tropical Fish</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Turtle</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Turtle</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Vilalger</td>
-                <td Class="drops">10%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Vilalger</td>
+                <td className="drops">10%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Wandering Trader</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-10</td>
+                <td className="drops">Wandering Trader</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-10</td>
               </tr>
               <tr>
-                <td Class="drops">Bee</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Bee</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Dolphin</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Dolphin</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Iron Golem</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-10</td>
+                <td className="drops">Iron Golem</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-10</td>
               </tr>
               <tr>
-                <td Class="drops">Llama</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Llama</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Panda</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Panda</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Pufferfish</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Pufferfish</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Wolf</td>
-                <td Class="drops">90%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Wolf</td>
+                <td className="drops">90%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Bat</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-2</td>
+                <td className="drops">Bat</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-2</td>
               </tr>
               <tr>
-                <td Class="drops">Cave Spider</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-6</td>
+                <td className="drops">Cave Spider</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-6</td>
               </tr>
               <tr>
-                <td Class="drops">Spider</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-6</td>
+                <td className="drops">Spider</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-6</td>
               </tr>
               <tr>
-                <td Class="drops">Creeper</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-6</td>
+                <td className="drops">Creeper</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-6</td>
               </tr>
               <tr>
-                <td Class="drops">Drowned</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-4</td>
+                <td className="drops">Drowned</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-4</td>
               </tr>
               <tr>
-                <td Class="drops">Elder Guardian</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-20</td>
+                <td className="drops">Elder Guardian</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-20</td>
               </tr>
               <tr>
-                <td Class="drops">Evoker</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-20</td>
+                <td className="drops">Evoker</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-20</td>
               </tr>
               <tr>
-                <td Class="drops">Guardian</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-10</td>
+                <td className="drops">Guardian</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-10</td>
               </tr>
               <tr>
-                <td Class="drops">Husk</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-4</td>
+                <td className="drops">Husk</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-4</td>
               </tr>
               <tr>
-                <td Class="drops">Phantom</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-10</td>
+                <td className="drops">Phantom</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-10</td>
               </tr>
               <tr>
-                <td Class="drops">Pilagaer</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-8</td>
+                <td className="drops">Pilagaer</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-8</td>
               </tr>
               <tr>
-                <td Class="drops">Ravager</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-20</td>
+                <td className="drops">Ravager</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-20</td>
               </tr>
               <tr>
-                <td Class="drops">Silverfish</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-4</td>
+                <td className="drops">Silverfish</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-4</td>
               </tr>
               <tr>
-                <td Class="drops">Skeleton</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-8</td>
+                <td className="drops">Skeleton</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-8</td>
               </tr>
               <tr>
-                <td Class="drops">Slime</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-6</td>
+                <td className="drops">Slime</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-6</td>
               </tr>
               <tr>
-                <td Class="drops">Stray</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-6</td>
+                <td className="drops">Stray</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-6</td>
               </tr>
               <tr>
-                <td Class="drops">Vex</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-8</td>
+                <td className="drops">Vex</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-8</td>
               </tr>
               <tr>
-                <td Class="drops">Vindicator</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-20</td>
+                <td className="drops">Vindicator</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-20</td>
               </tr>
               <tr>
-                <td Class="drops">Witch</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-10</td>
+                <td className="drops">Witch</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-10</td>
               </tr>
               <tr>
-                <td Class="drops">Zombie</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-4</td>
+                <td className="drops">Zombie</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-4</td>
               </tr>
               <tr>
-                <td Class="drops">Zombie Villager</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-4</td>
+                <td className="drops">Zombie Villager</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-4</td>
               </tr>
               <tr>
-                <td Class="drops">Piglin</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-8</td>
+                <td className="drops">Piglin</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-8</td>
               </tr>
               <tr>
-                <td Class="drops">Zombified Piglin</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-10</td>
+                <td className="drops">Zombified Piglin</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-10</td>
               </tr>
               <tr>
-                <td Class="drops">Blaze</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-10</td>
+                <td className="drops">Blaze</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-10</td>
               </tr>
               <tr>
-                <td Class="drops">Ghast</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-8</td>
+                <td className="drops">Ghast</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-8</td>
               </tr>
               <tr>
-                <td Class="drops">Hoglin</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-8</td>
+                <td className="drops">Hoglin</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-8</td>
               </tr>
               <tr>
-                <td Class="drops">Magma Cube</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-8</td>
+                <td className="drops">Magma Cube</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-8</td>
               </tr>
               <tr>
-                <td Class="drops">Piglin Brute</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-20</td>
+                <td className="drops">Piglin Brute</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-20</td>
               </tr>
               <tr>
-                <td Class="drops">Wither Skeleton</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-20</td>
+                <td className="drops">Wither Skeleton</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-20</td>
               </tr>
               <tr>
-                <td Class="drops">Zoglin</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-10</td>
+                <td className="drops">Zoglin</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-10</td>
               </tr>
               <tr>
-                <td Class="drops">Endermite</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-10</td>
+                <td className="drops">Endermite</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-10</td>
               </tr>
               <tr>
-                <td Class="drops">Enderman</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-15</td>
+                <td className="drops">Enderman</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-15</td>
               </tr>
               <tr>
-                <td Class="drops">Shulker</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">1-15</td>
+                <td className="drops">Shulker</td>
+                <td className="drops">50%</td>
+                <td className="drops">1-15</td>
               </tr>
               <tr>
-                <td Class="drops">Wither</td>
-                <td Class="drops">100%</td>
-                <td Class="drops">100</td>
+                <td className="drops">Wither</td>
+                <td className="drops">100%</td>
+                <td className="drops">100</td>
               </tr>
               <tr>
-                <td Class="drops">Ender Dragon</td>
-                <td Class="drops">50%</td>
-                <td Class="drops">200</td>
+                <td className="drops">Ender Dragon</td>
+                <td className="drops">50%</td>
+                <td className="drops">200</td>
               </tr>
             </tbody>
           </table>
           <br></br>
-          <h2 class="large text-primary center">Mining</h2>
-          <table class="table">
+          <h2 className="large text-primary center">Mining</h2>
+          <table className="table">
             <thead>
               <tr>
                 <th>Block</th>
@@ -366,80 +366,80 @@ export default function DropRates() {
             </thead>
             <tbody>
               <tr>
-                <td class="drops-mining">Coal Ore</td>
-                <td class="drops-mining">30%</td>
-                <td class="drops-mining">1-5</td>
+                <td className="drops-mining">Coal Ore</td>
+                <td className="drops-mining">30%</td>
+                <td className="drops-mining">1-5</td>
               </tr>
               <tr>
-                <td class="drops-mining">Lapis Ore</td>
-                <td class="drops-mining">30%</td>
-                <td class="drops-mining">1-5</td>
+                <td className="drops-mining">Lapis Ore</td>
+                <td className="drops-mining">30%</td>
+                <td className="drops-mining">1-5</td>
               </tr>
               <tr>
-                <td class="drops-mining">Iron Ore</td>
-                <td class="drops-mining">30%</td>
-                <td class="drops-mining">1-10</td>
+                <td className="drops-mining">Iron Ore</td>
+                <td className="drops-mining">30%</td>
+                <td className="drops-mining">1-10</td>
               </tr>
               <tr>
-                <td class="drops-mining">Gold Ore</td>
-                <td class="drops-mining">30%</td>
-                <td class="drops-mining">1-10</td>
+                <td className="drops-mining">Gold Ore</td>
+                <td className="drops-mining">30%</td>
+                <td className="drops-mining">1-10</td>
               </tr>
               <tr>
-                <td class="drops-mining">Emerald Ore</td>
-                <td class="drops-mining">30%</td>
-                <td class="drops-mining">1-20</td>
+                <td className="drops-mining">Emerald Ore</td>
+                <td className="drops-mining">30%</td>
+                <td className="drops-mining">1-20</td>
               </tr>
               <tr>
-                <td class="drops-mining">Diamond Ore</td>
-                <td class="drops-mining">30%</td>
-                <td class="drops-mining">1-20</td>
+                <td className="drops-mining">Diamond Ore</td>
+                <td className="drops-mining">30%</td>
+                <td className="drops-mining">1-20</td>
               </tr>
               <tr>
-                <td class="drops-mining">Cobblestone</td>
-                <td class="drops-mining">5%</td>
-                <td class="drops-mining">1-5</td>
+                <td className="drops-mining">Cobblestone</td>
+                <td className="drops-mining">5%</td>
+                <td className="drops-mining">1-5</td>
               </tr>
               <tr>
-                <td class="drops-mining">Stone</td>
-                <td class="drops-mining">5%</td>
-                <td class="drops-mining">1-5</td>
+                <td className="drops-mining">Stone</td>
+                <td className="drops-mining">5%</td>
+                <td className="drops-mining">1-5</td>
               </tr>
               <tr>
-                <td class="drops-mining">Andersite</td>
-                <td class="drops-mining">5%</td>
-                <td class="drops-mining">1-5</td>
+                <td className="drops-mining">Andersite</td>
+                <td className="drops-mining">5%</td>
+                <td className="drops-mining">1-5</td>
               </tr>
               <tr>
-                <td class="drops-mining">Granite</td>
-                <td class="drops-mining">5%</td>
-                <td class="drops-mining">1-5</td>
+                <td className="drops-mining">Granite</td>
+                <td className="drops-mining">5%</td>
+                <td className="drops-mining">1-5</td>
               </tr>
               <tr>
-                <td class="drops-mining">Diorite</td>
-                <td class="drops-mining">5%</td>
-                <td class="drops-mining">1-5</td>
+                <td className="drops-mining">Diorite</td>
+                <td className="drops-mining">5%</td>
+                <td className="drops-mining">1-5</td>
               </tr>
               <tr>
-                <td class="drops-mining">Gravel</td>
-                <td class="drops-mining">5%</td>
-                <td class="drops-mining">1-5</td>
+                <td className="drops-mining">Gravel</td>
+                <td className="drops-mining">5%</td>
+                <td className="drops-mining">1-5</td>
               </tr>
               <tr>
-                <td class="drops-mining">Sand</td>
-                <td class="drops-mining">5%</td>
-                <td class="drops">1-5</td>
+                <td className="drops-mining">Sand</td>
+                <td className="drops-mining">5%</td>
+                <td className="drops">1-5</td>
               </tr>
               <tr>
-                <td class="drops-mining">Dirt</td>
-                <td class="drops-mining">5%</td>
-                <td class="drops-mining">1-5</td>
+                <td className="drops-mining">Dirt</td>
+                <td className="drops-mining">5%</td>
+                <td className="drops-mining">1-5</td>
               </tr>
             </tbody>
           </table>
           <br></br>
-          <h2 class="large text-primary center">Farming</h2>
-          <table class="table">
+          <h2 className="large text-primary center">Farming</h2>
+          <table className="table">
             <thead>
               <tr>
                 <th>Crop</th>
@@ -449,45 +449,45 @@ export default function DropRates() {
             </thead>
             <tbody>
               <tr>
-                <td class="drops-farming">Wheat</td>
-                <td class="drops-farming">20%</td>
-                <td class="drops-farming">1-5</td>
+                <td className="drops-farming">Wheat</td>
+                <td className="drops-farming">20%</td>
+                <td className="drops-farming">1-5</td>
               </tr>
               <tr>
-                <td class="drops-farming">Carrot</td>
-                <td class="drops-farming">20%</td>
-                <td class="drops-farming">1-5</td>
+                <td className="drops-farming">Carrot</td>
+                <td className="drops-farming">20%</td>
+                <td className="drops-farming">1-5</td>
               </tr>
               <tr>
-                <td class="drops-farming">Potato</td>
-                <td class="drops-farming">20%</td>
-                <td class="drops-farming">1-5</td>
+                <td className="drops-farming">Potato</td>
+                <td className="drops-farming">20%</td>
+                <td className="drops-farming">1-5</td>
               </tr>
               <tr>
-                <td class="drops-farming">Oak Log</td>
-                <td class="drops-farming">10%</td>
-                <td class="drops-farming">1-5</td>
+                <td className="drops-farming">Oak Log</td>
+                <td className="drops-farming">10%</td>
+                <td className="drops-farming">1-5</td>
               </tr>
               <tr>
-                <td class="drops-farming">Spruce Log</td>
-                <td class="drops-farming">10%</td>
-                <td class="drops-farming">1-5</td>
+                <td className="drops-farming">Spruce Log</td>
+                <td className="drops-farming">10%</td>
+                <td className="drops-farming">1-5</td>
               </tr>
               <tr>
-                <td class="drops-farming">Birch Log</td>
-                <td class="drops-farming">10%</td>
-                <td class="drops-farming">1-5</td>
+                <td className="drops-farming">Birch Log</td>
+                <td className="drops-farming">10%</td>
+                <td className="drops-farming">1-5</td>
               </tr>
               <tr>
-                <td class="drops-farming">Jungle Log</td>
-                <td class="drops-farming">10%</td>
-                <td class="drops-farming">1-5</td>
+                <td className="drops-farming">Jungle Log</td>
+                <td className="drops-farming">10%</td>
+                <td className="drops-farming">1-5</td>
               </tr>
             </tbody>
           </table>
           <br></br>
-          <h2 class="large text-primary center">Fishing</h2>
-          <table class="table">
+          <h2 className="large text-primary center">Fishing</h2>
+          <table className="table">
             <thead>
               <tr>
                 <th>Fish</th>
@@ -497,19 +497,19 @@ export default function DropRates() {
             </thead>
             <tbody>
               <tr>
-                <td class="drops-fishing">Raw Fish</td>
-                <td class="drops-fishing">20%</td>
-                <td class="drops-fishing">1-5</td>
+                <td className="drops-fishing">Raw Fish</td>
+                <td className="drops-fishing">20%</td>
+                <td className="drops-fishing">1-5</td>
               </tr>
               <tr>
-                <td class="drops-fishing">Pufferfish</td>
-                <td class="drops-fishing">20%</td>
-                <td class="drops-fishing">1-5</td>
+                <td className="drops-fishing">Pufferfish</td>
+                <td className="drops-fishing">20%</td>
+                <td className="drops-fishing">1-5</td>
               </tr>
               <tr>
-                <td class="drops-fishing">Tropical Fish</td>
-                <td class="drops-fishing">20%</td>
-                <td class="drops-fishing">1-5</td>
+                <td className="drops-fishing">Tropical Fish</td>
+                <td className="drops-fishing">20%</td>
+                <td className="drops-fishing">1-5</td>
               </tr>
             </tbody>
           </table>
