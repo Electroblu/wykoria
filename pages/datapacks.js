@@ -45,6 +45,11 @@ export default function Datapacks() {
           want to pass the night or storm please let other players know in chat.
         </p>
         <br></br>
+        <h2 className="large text-primary">Unlock All Recipes</h2>
+        <p>
+          Unlocks all crafting recipes when first loggin into the the server.
+        </p>
+        <br></br>
         <h2 className="large text-primary">Track Statistics</h2>
         <p>
           Better Statistic tracker in minecraft for those that like numbers.
