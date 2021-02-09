@@ -93,9 +93,9 @@ export default function Rules() {
             </Link>
           </p>
           <h2 class="large text-primary">Nether Hub</h2>
-          <img class="my-1" src="/images/nether-1.png" alt="nether-1" />
-          <img class="my-1" src="/images/nether-2.png" alt="nether-2" />
-          <img class="my-1" src="/images/nether-3.png" alt="nether-3" />
+          <img class="my-1" src="/nether-1.png" alt="nether-1" />
+          <img class="my-1" src="/nether-2.png" alt="nether-2" />
+          <img class="my-1" src="/nether-3.png" alt="nether-3" />
           <p class="lead">
             <strong>Inspired by: </strong>
             <Link href="https://www.planetminecraft.com/project/nether-themed-castle/">
