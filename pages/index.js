@@ -51,7 +51,7 @@ export default function Home() {
             the land of Wykoria.'
           </p>
           <div className="buttons">
-            <Link href="/">
+            <Link href="/rules">
               <a className="btn btn-primary">Continue to Wykoria</a>
             </Link>
           </div>

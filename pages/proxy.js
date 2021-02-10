@@ -12,6 +12,10 @@ export default function Proxy() {
       <div class="dark-overlay"></div>
       <div class="container">
         <h1 class="x-large text-primary center">Proximity Chat</h1>
+        <p className="lead text-light-green">
+          Proximity has been disabled for the time being due to bugs and
+          technical issues.
+        </p>
         <p class="lead center">
           Wykoria uses Sckoice for proximity chat on the server.
         </p>
