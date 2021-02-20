@@ -63,6 +63,7 @@ export default function Rules() {
               No pointless destruction, blowing things up with TNT for fun will
               not be tolerated
             </li>
+            <li> Do not spawn the wither in the overworld.</li>
             <li>
               {" "}
               Do not claim land within spawn, your claims will be removed.
